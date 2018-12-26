@@ -26,19 +26,7 @@ man() {
       man "$@"
 }
 
-echo "                   ,%%%,       "
-echo "                 ,%%%\` %==--   "
-echo "                ,%%\`( '|       "
-echo "               ,%%@ /\_/       "
-echo "     ,%.-\"\"\"--%%% \"@@__        "
-echo "    %%/             |__\`\      "
-echo "   .%'\     |   \   /  //      "
-echo "   ,%' >   .'----\ |  [/       "
-echo "      < <<\`       ||           "
-echo "       \`\\\         ||           "
-echo "        )\\        )\           "
-echo "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
-
+python ~/.dotfiles/.zsh/shascii/welcome.py
 # Print the TODO file
 export reminder_file="$HOME/.todo"
 if [ -s "$reminder_file" ] ; then
